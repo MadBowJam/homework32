@@ -1,0 +1,28 @@
+{
+  "rules": {
+    "no-unused-vars": "warn",
+    "sort-keys": "warn"
+  },
+  "env": {
+    "es6": true,
+    "browser": true
+  },
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 2023,
+    "sourceType": "module",
+    "requireConfigFile": false // Add this line if you don't have a babel.config.js or similar config file
+  },
+  "extends": [
+    "eslint:recommended"
+  ],
+  "overrides": [
+    {
+      "files": ["*.jsx"], // Add this block if JSX files have a different extension
+      "parserOptions": {
+        "ecmaFeatures": {
+          "jsx": true
+        }
+      }
+    }]
+  }

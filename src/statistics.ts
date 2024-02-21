@@ -1,4 +1,4 @@
-function createStatistics() {
+function createStatistics() { 
   let counter = 0
   let isDestroyed = false
   const listener = () => counter++
@@ -20,4 +20,4 @@ function createStatistics() {
   }
 }
 
-window.statistics = createStatistics()
+window['statistics'] = createStatistics()

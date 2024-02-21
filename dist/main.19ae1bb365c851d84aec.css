@@ -1,0 +1,111 @@
+/*!******************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./css/fonts.css ***!
+  \******************************************************************/
+.roboto-regular {
+  font-family: "Roboto";
+  src: url(assets/fonts/Roboto-Regular.fc2b5060f7accec5cf74.ttf) format('truetype');
+}
+
+/* open-sans-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(assets/fonts/open-sans-v40-latin-300.6dacce4cff13d02117d6.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(assets/fonts/open-sans-v40-latin-regular.feb0d8644aca3df9fabf.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url(assets/fonts/open-sans-v40-latin-500.4014dc96fc81e6741eac.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(assets/fonts/open-sans-v40-latin-700.93eac171b09d26a243c1.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* open-sans-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: url(assets/fonts/open-sans-v40-latin-800.aab465b6fbe908b4b591.woff2) format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/*!******************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!./css/style.css ***!
+  \******************************************************************/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 300;
+}
+.container {
+  padding: 20px 40px;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  background-image: url(assets/images/icon-square-big.47692505d122dbcae490.png);
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+/*!************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/less-loader/dist/cjs.js!./less/style.less ***!
+  \************************************************************************************************************/
+.less-demo {
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 2px solid gray;
+}
+.less-demo h2 {
+  color: tomato;
+  text-align: center;
+}
+
+/*!************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./sass/style.scss ***!
+  \************************************************************************************************************/
+.scss-demo {
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 2px solid gray;
+}
+.scss-demo h2 {
+  color: brown;
+  text-align: center;
+}
+/*!************************************************************************************************************!*\
+  !*** css ../node_modules/css-loader/dist/cjs.js!../node_modules/sass-loader/dist/cjs.js!./sass/style.sass ***!
+  \************************************************************************************************************/
+.sass-demo {
+  margin-top: 40px;
+  padding: 20px;
+  border-top: 2px solid gray;
+}
+.sass-demo h2 {
+  color: blue;
+  text-align: center;
+}
